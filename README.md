@@ -62,19 +62,21 @@ Byla použita metoda PCA (Principal Component Analysis) z analýzy dat před tr�
 
 Byly také detekovány a odstraněny odlehlé hodnoty, aby neovlivnily výsledky trénování a predikce modelu. Tato detekce byla provedena pomocí statistických metod, jako je například z-score, a odstraněny byly hodnoty s extrémními hodnotami z-score.
 
-## Výsledky
+## Výsledky
 
 ### Zjištění korelací
 
-![Zjištění korelací]()
+![Zjištění korelací](https://github.com/JanZmrzly/knn-classification/blob/master/static/korelace.png)
+
+![Zjištení korelací](https://github.com/JanZmrzly/knn-classification/blob/master/static/korelace_2.png)
 
 ### Principal Component Analysis
 
-![Principal component analysis]()
+![Principal component analysis](https://github.com/JanZmrzly/knn-classification/blob/master/static/pca.png)
 
 ### Detekce odlehlých hodnot
 
-![Detekce odlehlých hodnot]()
+![Detekce odlehlých hodnot](https://github.com/JanZmrzly/knn-classification/blob/master/static/odlehle_hodnoty.png)
 
 ### Výsledky jednotivých modelů
 
