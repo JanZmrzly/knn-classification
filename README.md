@@ -78,20 +78,16 @@ Byly také detekovány a odstraněny odlehlé hodnoty, aby neovlivnily výsledky
 
 ### Výsledky jednotivých modelů
 
-KNN:&nbsp0.45
-SVC:&nbsp0.47
-NN:&nbsp0.48
+* KNN: 0.45
+* SVC: 0.47
+* NN: 0.48
 
 ## Závěr 
 
+Bohužel, výsledky trénování modelů nebyly uspokojivé, a celková přesnost výsledků se pohybovala pod 0.5. Nejlépe si vedla neuronová síť s přesností 0.48, následovaná SVC s přesností 0.47 a nakonec KNN s přesností 0.45. Jedním z možných důvodů, proč se klasifikace nepodařila a nepovedlo se natrénovat model na vyšší přesnost, může být nedostatek relevantních dat pro trénování.
 
+Při použití dat ke kontrole kvality (validaci) se přesnost ještě zhoršila a pohybovala se nad 0.33. Pro účely klasifikace se často používají data, která jsou dobře popsaná a strukturovaná, obsahují dostatečný počet datových bodů a jsou rovnoměrně rozložená ve všech kategoriích, aby se minimalizoval vliv náhodného výběru a šumů v datech.
 
 ## Autor
 
 Jan Zmrzlý, zmrzlyjan@gmail.com
-
-
-
-
-
-
