@@ -14,8 +14,9 @@ def main():
     DATA_SET = "data\\Train.csv"
     MODEL = "models\\20230422_2035_kkn_model.joblib"
 
-    if len(sys.argv) > 2:
+    if len(sys.argv) >= 2:
         DATA_SET = sys.argv[1]
+    elif len(sys.argv) >= 3:
         MODEL = sys.argv[2]
     else:
         raise Exception("Few input arguments were given. Two are required (Dataset and Model)")
